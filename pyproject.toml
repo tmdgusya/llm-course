@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-lecture"
+version = "0.1.0"
+description = ""
+authors = ["정승현 <tmdgusya@naver.com>"]
+readme = "README.md"
+packages = [{include = "llm_lecture"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
